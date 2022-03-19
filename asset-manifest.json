@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tehzadanie/static/css/main.20863072.css",
+    "main.js": "/tehzadanie/static/js/main.daa13a44.js",
+    "static/media/Skateboarding.gif": "/tehzadanie/static/media/Skateboarding.b53f1c752983543a68ff.gif",
+    "index.html": "/tehzadanie/index.html",
+    "main.20863072.css.map": "/tehzadanie/static/css/main.20863072.css.map",
+    "main.daa13a44.js.map": "/tehzadanie/static/js/main.daa13a44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20863072.css",
+    "static/js/main.daa13a44.js"
+  ]
+}
