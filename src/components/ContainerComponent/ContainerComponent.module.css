@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.mainContend{
+    min-width: 650px;
+    background-color: white;
+    padding: 19px 62px 44px 31px;
+    height: 100vw;
+}
+.editTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContend img{
+    padding: 15% 45% 15%;
+    width: 90px;
+}
