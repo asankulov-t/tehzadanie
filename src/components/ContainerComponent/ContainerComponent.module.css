@@ -17,3 +17,10 @@
     padding: 15% 45% 15%;
     width: 90px;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .container{
+        display: block;
+    }
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+}

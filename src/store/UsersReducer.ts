@@ -1,4 +1,6 @@
 import {Address, Company, Geo, RootObject, UsersType} from "../types";
+import {Dispatch} from "redux";
+import {APIS} from "../DAL/Api";
 
 let initialState:UsersType={
     data: [
@@ -107,5 +109,15 @@ const UsersReducer = (state=initialState,action:Ations)=>{
             return state
     }
 }
+
+export const getUsersThunk = () => {
+    return (dispatch:Dispatch) => {
+       APIS.getUsers().then(res=>{
+           let data=res.data
+           dispatch(getUserAct(data))
+       })
+        // ...
+    };
+};
 
 export default UsersReducer;

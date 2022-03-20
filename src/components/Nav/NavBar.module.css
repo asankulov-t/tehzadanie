@@ -5,3 +5,12 @@
     background:#BDBDBD;
     min-height: 1028px;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .block{
+        display: flex;
+        justify-content: space-between;
+        max-height: 120px;
+    }
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
