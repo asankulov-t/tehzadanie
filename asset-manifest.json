@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tehzadanie/static/css/main.20863072.css",
-    "main.js": "/tehzadanie/static/js/main.daa13a44.js",
+    "main.css": "/tehzadanie/static/css/main.0e69ac3f.css",
+    "main.js": "/tehzadanie/static/js/main.d9c60cf6.js",
     "static/media/Skateboarding.gif": "/tehzadanie/static/media/Skateboarding.b53f1c752983543a68ff.gif",
     "index.html": "/tehzadanie/index.html",
-    "main.20863072.css.map": "/tehzadanie/static/css/main.20863072.css.map",
-    "main.daa13a44.js.map": "/tehzadanie/static/js/main.daa13a44.js.map"
+    "main.0e69ac3f.css.map": "/tehzadanie/static/css/main.0e69ac3f.css.map",
+    "main.d9c60cf6.js.map": "/tehzadanie/static/js/main.d9c60cf6.js.map"
   },
   "entrypoints": [
-    "static/css/main.20863072.css",
-    "static/js/main.daa13a44.js"
+    "static/css/main.0e69ac3f.css",
+    "static/js/main.d9c60cf6.js"
   ]
 }
