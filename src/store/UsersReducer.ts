@@ -113,10 +113,8 @@ const UsersReducer = (state=initialState,action:Ations)=>{
 export const getUsersThunk = () => {
     return (dispatch:Dispatch) => {
        APIS.getUsers().then(res=>{
-           let data=res.data
-           dispatch(getUserAct(data))
+           dispatch(getUserAct(res.data))
        })
-        // ...
     };
 };
 

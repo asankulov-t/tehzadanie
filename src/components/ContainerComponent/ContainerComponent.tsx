@@ -7,7 +7,7 @@ import {AppRootType} from "../../store/Store";
 import {RootObject} from "../../types";
 import { sortByCity, sortByCompany} from "../../store/UsersReducer";
 import EditComponent from "../../EditComponent/EditComponent";
-import {Route, Routes, useLocation } from 'react-router-dom';
+import {Route, Routes } from 'react-router-dom';
 import CommoinButton from "../CommonButton/CommoinButton";
 import limg from "../../assets/Skateboarding.gif";
 
@@ -40,10 +40,6 @@ const ContainerComponent = () => {
     let setOffReadOnly=()=>{
         setReadOnly(false)
     }
-    //"gh-pages": "^3.2.3"
-    //  "homepage": "https://http://asankulov-t.github.io/tehzadanie",
-    // "predeploy": "npm run build",
-    //     "deploy": "gh-pages -d build"
     return <div className={s.container}>
 
         <NavBar sortByCitys={sortByCitys}
